@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderbox{
+    display:flex;
+    flex-direction: column;
+    background-color: hsl(225, 100%, 98%);
+    height:75%;
+    max-width:400px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px 1px hsla(224, 23%, 55%, 0.501);
+}
+
+img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    justify-content: center;
+    align-items:center;
+    gap:23px;
+    margin:1.4rem;
+}
+
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+p{
+    font-family: 'Red Hat Display', sans-serif;
+    color:hsl(224, 23%, 55%);
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center; 
+}
+
+.plan{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsl(224, 56%, 95%);
+    padding:20px;
+    width:100%;
+    border-radius: 10px;
+
+}
+.plan img{
+    background-color:hsl(224, 23%, 55%);
+    border-radius:50%;
+}
+
+.plancol{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-right:60px;
+    gap:3px;
+}
+
+.plancol span:first-child{
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+
+.plancol span:last-child{
+    color:hsl(225, 13%, 54%);
+    font-size:15px;
+    font-weight: 700;
+}
+
+a{
+    color:hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+button{
+    background-color: hsl(245, 75%, 52%);
+    width:100%;
+    border-radius:10px;
+    color:azure;
+    padding:15px;
+    border:none;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    box-shadow: 0px 4px 30px  hsl(224, 23%, 55%);
+}
+
+#cancel{
+    font-family: 'Red Hat Display', sans-serif;
+    color:hsl(224, 23%, 55%);
+    font-weight: 900;
+    text-align: center;
+    font-size: 14px;
+}
+
+a:hover{
+    cursor:pointer;
+    text-decoration:none;
+    color:hsl(245, 66%, 66%);
+}
+#cancel:hover{
+    cursor:pointer;
+    color: black;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color:hsl(245, 66%, 66%); 
+}
+/* font-family: 'Red Hat Display', sans-serif; */
