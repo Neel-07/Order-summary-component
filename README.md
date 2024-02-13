@@ -18,7 +18,7 @@ For the Order summary component project, my main objective was to craft a visual
   
 ### Screenshot
 
-![](./order-summary-component-main/images/desktop-design.jpg)
+![](./order-summary-component-main/design/desktop-design.jpg)
 
 ### Links
 - Live Site URL: [Click here](https://neel-07.github.io/Order-summary-component/)
